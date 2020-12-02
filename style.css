@@ -1,4 +1,6 @@
 .nav {
     font: Verdana;
-    background-color: #493666;
+    background: #493666;
+    padding: 40px;
+    text-align: center;
 }
