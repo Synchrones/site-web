@@ -36,6 +36,49 @@ a {
         background-color: #5e4b7a;
 }
 
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
 
+nav ul{
+    list-style-type: none;
+}
 
+nav ul li{
+    float: center;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
 
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
