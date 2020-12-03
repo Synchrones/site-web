@@ -7,14 +7,14 @@
     
 }
 
-.ul{
+.nav ul{
     padding: 0;
     margin: 0;
     list-style: none;
     font-size: large;
 }
 
-.navtext{
+.nav a{
     display: block;
     padding: 5px;
     float: left;
@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-.navtext:hover{
+.nav a:hover{
         background-color: #5e4b7a;
 }
 
@@ -53,22 +53,6 @@ a {
     text-align: center;
 }
 
-nav ul{
-    list-style-type: none;
-}
-
-nav ul li{
-    float: center;
-    width: 25%;
-    text-align: center;
-    position: relative;
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 nav > ul li:hover .sous{
     display: block;
@@ -80,4 +64,9 @@ nav > ul li:hover .sous{
 .deroulant > a::after{
     content:"▼";
     font-size: 12px;
+}
+
+aside{
+    display: block;
+    float: right;
 }
