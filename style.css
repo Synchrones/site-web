@@ -1,7 +1,31 @@
 
 .nav {
-    font: Verdana;
-    background: #493666;
-    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #493666;
+    padding-bottom: 60px;
+    
+}
+
+.ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: large;
+}
+
+.navtext{
+    display: block;
+    padding: 5px;
+    float: left;
+    width: 100px;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
 }
