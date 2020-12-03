@@ -65,7 +65,8 @@ nav > ul li:hover .sous{
 
 .sous a:hover{
     border-bottom: none;
-    background-color: #4f3872;
+    background-color: #563d7a;
+    transition: 0.5s
 }
 .deroulant > a::after{
     content:"▼";
