@@ -19,7 +19,9 @@
     padding: 5px;
     float: left;
     width: 100px;
+    height: 50px;
     color: #ffffff;
+    transition: background-color 0.5s;
 }
 
 a:visited {
@@ -29,3 +31,11 @@ a:visited {
 a {
     text-decoration: none;
 }
+
+.navtext:hover{
+        background-color: #5e4b7a;
+}
+
+
+
+
