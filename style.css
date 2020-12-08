@@ -23,8 +23,14 @@ h2 {
 }
 
 footer {
+    display: block;
     position: absolute;
-    bottom: 0;    
+    bottom: 0;
+    background-color: #421d7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
 
 body {
@@ -62,12 +68,12 @@ nav a{
     display: block;
     padding: 5px;
     height: 50px;
-    color: #ffffff;
+    color:  white;
     transition: background-color 0.5s;
 }
 
 a:visited {
-    color: #ffffff;
+    color: white;
 }
 
 a {
