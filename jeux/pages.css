@@ -46,11 +46,6 @@ footer {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("img pr logo/jvpl2back.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 90px;
-    background-size: 70%;
 }   
 
 
@@ -129,4 +124,9 @@ nav > ul li:hover .sous{
 .deroulant > a::after{
     content:"▼";
     font-size: 12px;
+}
+
+aside{
+    display: block;
+    float: right;
 }
