@@ -130,3 +130,9 @@ nav > ul li:hover .sous{
     content:"▼";
     font-size: 12px;
 }
+
+.img{
+    margin: 25;
+    position:absolute;
+    }
+    
