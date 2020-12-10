@@ -8,9 +8,10 @@
 p { 
     padding-left: 30px;
     padding-right: 30px;
-    font-size: large;
+    font-size: 30px;
     color: #361766;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 
@@ -19,6 +20,7 @@ h1 {
     color: #2d1157;
     text-align: center;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -45,6 +47,11 @@ footer {
 body {
     margin: 0;
     padding: 0;
+    background-image: url("img pr logo/jvpl2back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 90px;
+    background-size: 70%;
 }   
 
 
