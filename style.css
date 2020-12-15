@@ -10,7 +10,7 @@ p {
     padding-right: 30px;
     font-size: 30px;
     color: #361766;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -133,6 +133,16 @@ nav > ul li:hover .sous{
 
 .img{
     margin-left : 300px;
-    float: top;
+    padding: 5px;
+    border: 5px solid  #361766;
+    border-radius: 10px;
+    
 }
     
+.img2{
+   margin-left: 90px;
+   padding: 5px;
+   border: 5px solid  #361766;
+   border-radius: 10px;
+}
+
