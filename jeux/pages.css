@@ -11,6 +11,7 @@ p {
     font-size: 20px;
     color: #361766;
     margin-bottom: 40px;
+    width: 70%;
 }
 
 
@@ -45,6 +46,7 @@ footer {
 body {
     margin: 0;
     padding: 0;
+
 }   
 
 
@@ -81,7 +83,7 @@ nav a{
     transition: background-color 0.5s;
 }
 
-a:visited {
+nav a:visited {
     color: white;
 }
 
@@ -125,7 +127,21 @@ nav > ul li:hover .sous{
     font-size: 12px;
 }
 
-aside{
+table{
     display: block;
-    float: right;
+    float : right;
+    border: 5px solid;  
+    border-color:  #361766;
+    margin: 30px;
+}
+
+td{
+    border-bottom: 5px solid;  
+    border-color:  #361766;
+    
+}
+
+th{
+    background-color: #361766;
+    color: white;
 }
