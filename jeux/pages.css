@@ -162,6 +162,7 @@ th{
 .galery:hover img{
     filter: opacity(50%);
     transition: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .galery:hover .text{
