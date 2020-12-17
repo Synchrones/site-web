@@ -161,6 +161,7 @@ th{
 
 .galery:hover img{
     filter: opacity(50%);
+    transition: 0.5s;
 }
 
 .galery:hover .text{
