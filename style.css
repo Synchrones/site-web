@@ -144,4 +144,77 @@ nav > ul li:hover .sous{
    border-radius: 10px;
 }
 
+.galery {
+    position: relative;
+    margin-left : 300px;
+    padding: 5px;
+    border: 5px solid  #361766;
+    border-radius: 10px;
+    width: 338px; 
+    height: 190px;
+    display: inline-block;
+    font-family: sans-serif;
 
+    
+}
+ .galery img{
+    width: 338px; 
+    height: 190px;
+ }
+
+.galery:hover img{
+    filter: opacity(50%);
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.galery:hover .text{
+    display: inline-block;
+
+}
+
+
+.text{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #361766;
+    font-weight: 750;
+    font-size: 30px;
+}
+
+.main{
+    width: 100%;
+    padding: 0px;
+}
+
+.galery2 {
+    position: relative;
+    margin-left: 95px;
+    padding: 5px;
+    border: 5px solid  #361766;
+    border-radius: 10px;
+    width: 304px; 
+    height: 190px;
+    display: inline-block;
+    font-family: sans-serif;
+
+    
+}
+ .galery2 img{
+    width: 304px; 
+    height: 190px;
+ }
+
+.galery2:hover img{
+    filter: opacity(50%);
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.galery2:hover .text{
+    display: inline-block;
+
+}
