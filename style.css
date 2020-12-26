@@ -8,10 +8,16 @@ p {
     padding-right: 30px;
     font-size: 30px;
     color: #361766;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
+
+.rand{
+    text-align: center;
+    font-size: 30px;
+    color: #361766;
+}
 
 h1 {
     color: #361766;
@@ -85,7 +91,7 @@ nav a{
     transition: background-color 0.5s;
 }
 
-a:visited {
+nav a:visited {
     color: white;
 }
 
