@@ -17,8 +17,8 @@ function link(){
     href[12] = "typesjeux/sony.html";
     href[13] = "typesjeux/nintendo.html";
     href[14] = "typesjeux/microsoft.html";
-    
-    window.location.href = href[rand(0,14)]
+    hred[15] = "pbsc.html";
+    window.location.href = href[rand(0,15)]
 
 }
 
